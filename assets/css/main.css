@@ -370,7 +370,11 @@ input, select, textarea {
 			h1.major:after {
 				bottom: -1.325rem;
 			}
-
+		.major img {
+				width: 200px;
+				height: fill;
+				color: rgba(255, 255, 255, 0.875);
+			  }
 	h2 {
 		font-size: 1.75rem;
 		line-height: 1.2;
@@ -2200,6 +2204,10 @@ input, select, textarea {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
 				background-size: 128px 128px, auto;
 			}
+			.panel > *.color0b {
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #385a64 20%, #438680 60%, #a0cdc6);
+				background-size: 128px 128px, auto;
+			}
 
 			.panel > *.color1 {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
@@ -3329,6 +3337,7 @@ input, select, textarea {
 			flex-direction: row-reverse;
 		}
 
+
 	@media screen and (max-width: 736px) {
 
 		.panel.banner .content {
@@ -3605,6 +3614,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .copyright {
+			width: 1px;
 			position: absolute;
 			bottom: -3rem;
 			right: 0;
@@ -3699,3 +3709,5 @@ input, select, textarea {
 			}
 
 	}
+
+
